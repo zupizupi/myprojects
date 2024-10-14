@@ -34,12 +34,12 @@ int main (){
         }
     }
       if (clarapoint > alicepoint && clarapoint >jacobpoint) {
-        cout << "Clara wins the election!" << endl;
+        cout << "Clara wins the election!" << "\n";
     } else if (alicepoint > clarapoint && alicepoint > jacobpoint) {
-        cout << "Alice wins the election!" << endl;
+        cout << "Alice wins the election!" << "\n";
     } else if (jacobpoint > clarapoint && jacobpoint > alicepoint) {
-        cout << "John wins the election!" << endl;
+        cout << "John wins the election!" << "\n";
     } else {
-        cout << "It's a tie!" << endl;
+        cout << "It's a tie!" << "\n";
     }
 }
